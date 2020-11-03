@@ -1,8 +1,8 @@
 module.exports = {
   title: "Serverless Guidebook",
   tagline: "Helping you navigate your serverless journey",
-  url: "https://lukehedger.github.io/serverless-guidebook",
-  baseUrl: "/",
+  url: "https://lukehedger.github.io",
+  baseUrl: "/serverless-guidebook/",
   onBrokenLinks: "throw",
   favicon: "img/favicon.ico",
   organizationName: "lukehedger",
