@@ -1,0 +1,12 @@
+# OS files
+.DS_Store
+
+# Log files
+*.log
+
+# Dependencies
+node_modules
+
+# Generated files
+docs/.docusaurus
+docs/build
