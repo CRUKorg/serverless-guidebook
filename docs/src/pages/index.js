@@ -9,7 +9,7 @@ import styles from "./styles.module.css";
 const features = [
   {
     title: "Concepts",
-    imageUrl: "img/undraw_docusaurus_mountain.svg",
+    imageUrl: "img/concepts.png",
     description: (
       <>
         Learn about the fundamental serverless concepts. A great place to start!
@@ -18,14 +18,14 @@ const features = [
   },
   {
     title: "Services",
-    imageUrl: "img/undraw_docusaurus_tree.svg",
+    imageUrl: "img/services.png",
     description: (
       <>Explore the AWS services at the core of most serverless applications.</>
     ),
   },
   {
     title: "Resources",
-    imageUrl: "img/undraw_docusaurus_react.svg",
+    imageUrl: "img/resources.png",
     description: (
       <>
         Discover reference architectures, best practices and templates to start
