@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "declarationDir": "bin",
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "outDir": "bin",
+    "strict": true,
+    "target": "ES2018",
+    "types": ["jest", "node"]
+  },
+  "exclude": ["**/__tests__", "bin"]
+}
