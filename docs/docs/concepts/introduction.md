@@ -41,6 +41,6 @@ A great place to start building serverless applications is the [AWS Cloud Develo
 
 After that, you can come back here to explore the concepts related to serverless - time to learn more about [microservices](/docs/concepts/microservices)! And then take a look into the core AWS services that are used to build and operate serverless applications - [AWS Lambda](/docs/services/aws-lambda) is the most important!
 
-We also have a [growing set of examples](https://github.com/lukehedger/serverless-guidebook/tree/main/examples) to explore and run.
+We also have a [growing set of examples](https://github.com/CRUKorg/serverless-guidebook/tree/main/examples) to explore and run.
 
 Enjoy! 😌

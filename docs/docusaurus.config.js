@@ -1,11 +1,11 @@
 module.exports = {
   title: "Serverless Guidebook",
   tagline: "Helping you navigate your serverless journey",
-  url: "https://lukehedger.github.io",
+  url: "https://crukorg.github.io",
   baseUrl: "/serverless-guidebook/",
   onBrokenLinks: "throw",
   favicon: "img/favicon.ico",
-  organizationName: "lukehedger",
+  organizationName: "CRUKorg",
   projectName: "serverless-guidebook",
   themeConfig: {
     navbar: {
@@ -22,7 +22,7 @@ module.exports = {
           position: "left",
         },
         {
-          href: "https://github.com/lukehedger/serverless-guidebook",
+          href: "https://github.com/CRUKorg/serverless-guidebook",
           label: "GitHub",
           position: "right",
         },
@@ -66,7 +66,7 @@ module.exports = {
           items: [
             {
               label: "GitHub",
-              href: "https://github.com/lukehedger/serverless-guidebook",
+              href: "https://github.com/CRUKorg/serverless-guidebook",
             },
           ],
         },
@@ -82,7 +82,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl:
-            "https://github.com/lukehedger/serverless-guidebook/edit/master/docs/",
+            "https://github.com/CRUKorg/serverless-guidebook/edit/master/docs/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
