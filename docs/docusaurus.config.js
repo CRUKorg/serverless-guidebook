@@ -71,7 +71,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Luke Hedger. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Cancer Research UK. Built with Docusaurus.`,
     },
     hideableSidebar: true,
   },
