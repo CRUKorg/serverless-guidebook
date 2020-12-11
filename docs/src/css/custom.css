@@ -23,3 +23,140 @@
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
 }
+
+.sg-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  perspective: 500px;
+  position: relative;
+  margin: 0;
+  width: 600px;
+  height: 300px;
+
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-weight: bold;
+  text-align: center;
+  color: #000000;
+}
+
+svg.sg-logo {
+  position: absolute;
+  top: 40px; /* just a nudge down */
+  width: 225px;
+  height: 225px;
+  overflow: visible;
+
+  fill: #f0b200;
+  filter: drop-shadow(3px 3px 0 #ebedf0) drop-shadow(3px 3px 0 #ebedf0)
+    drop-shadow(3px 3px 0 #ebedf0);
+
+  transition: all 500ms ease-in-out;
+}
+
+svg.sg-logo path {
+  z-index: 2;
+}
+
+.sg-text-wrapper {
+  z-index: 2;
+
+  transition: all 300ms ease-in-out;
+}
+
+.sg-text {
+  font-size: 50px;
+  line-height: 1.2;
+  letter-spacing: 3px;
+}
+
+.sg-hover-region {
+  z-index: 3;
+  position: absolute;
+  width: 34%;
+  height: 34%;
+  pointer-events: auto;
+}
+
+.sg-hover-region:nth-child(1) {
+  top: 0;
+  left: 0;
+}
+
+.sg-hover-region:nth-child(2) {
+  top: 0;
+  left: 33.3%;
+}
+
+.sg-hover-region:nth-child(3) {
+  top: 0;
+  left: 66.6%;
+}
+
+.sg-hover-region:nth-child(4) {
+  top: 33.3%;
+  left: 66.6%;
+}
+
+.sg-hover-region:nth-child(5) {
+  top: 66.6%;
+  left: 66.6%;
+}
+
+.sg-hover-region:nth-child(6) {
+  top: 66.6%;
+  left: 33.3%;
+}
+
+.sg-hover-region:nth-child(7) {
+  top: 66.6%;
+  left: 0;
+}
+
+.sg-hover-region:nth-child(8) {
+  top: 33.3%;
+  left: 0;
+}
+
+.sg-hover-region:nth-child(9) {
+  top: 33.3%;
+  left: 33.3%;
+}
+
+.sg-hover-region:nth-child(1):hover ~ .sg-logo {
+  transform: rotateX(25deg) rotateY(-25deg) translateX(30px);
+}
+
+.sg-hover-region:nth-child(2):hover ~ .sg-logo {
+  transform: rotateX(25deg);
+}
+
+.sg-hover-region:nth-child(3):hover ~ .sg-logo {
+  transform: rotateX(25deg) rotateY(25deg) translateX(-30px);
+}
+
+.sg-hover-region:nth-child(4):hover ~ .sg-logo {
+  transform: rotateY(25deg) translateX(-30px);
+}
+
+.sg-hover-region:nth-child(5):hover ~ .sg-logo {
+  transform: rotateX(-25deg) rotateY(25deg) translateX(-30px);
+}
+
+.sg-hover-region:nth-child(6):hover ~ .sg-logo {
+  transform: rotateX(-25deg);
+}
+
+.sg-hover-region:nth-child(7):hover ~ .sg-logo {
+  transform: rotateX(-25deg) rotateY(-25deg) translateX(30px);
+}
+
+.sg-hover-region:nth-child(8):hover ~ .sg-logo {
+  transform: rotateY(-25deg) translateX(30px);
+}
+
+.sg-hover-region:nth-child(9):hover ~ .sg-logo {
+  transform: translateZ(-30px);
+}
